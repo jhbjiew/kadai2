@@ -1,10 +1,11 @@
-<h1>Books</h1>
-
-<% @books.each do |book| %>
-
-  <p>Title</p>
-  <span>
-    <%= link_to "start", "/books/#{book.id}" %>
-  </span>
+<h2>Books</h2>
   
+  
+  <h5>Title</h5>
+  <p>リーダブルコード</p>
+  <P>トラブル知らずのシステム設計</P>
+  <P>たのしいRuby</P>
+  
+  
+  <% @books.each do |book| %>
 <% end %>
